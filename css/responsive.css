@@ -22,24 +22,18 @@
 
     }
 }
-/* @media screen and (max-width: 1507px){
-    .white-text li{
-        flex: 0 0 39%;
-
+@media screen and (max-width: 954px){
+    .white-text li {
+        flex: 0 0 65%;
     }
 }
-@media screen and (max-width:1467px){
-    .white-text li{
-        flex: 0 0 41%;
-
+@media screen and (max-width: 880px){
+    .white-text li {
+        flex: 0 0 75%;
     }
 }
-@media screen and (min-width:1467px){
-    .white-text li{
-        flex: 0 0 41%;
 
-    }
-} */
+
 
 
 
@@ -145,7 +139,7 @@
     .price-content{
         width: 100%;
         
-        padding:50px 30px 30px 30px;
+        padding:80px 30px 30px 30px;
     }
     .price-box{
         width: 50%;
