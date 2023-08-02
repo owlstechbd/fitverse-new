@@ -90,9 +90,9 @@ p{
 
 .hero{
 	width: 100%;
-	padding: 100px 0 50px;
+	padding: 100px 0 220px;
 	color: #fff;
-	height: 100vh;
+	position: relative;
 	overflow-y: hidden;
 }
 
@@ -212,10 +212,10 @@ p{
 	font-size: 45px;
 	font-style: normal;
 	margin: 0 20px;
-	color:rgba(255, 255, 255, 0.173);
+	color:rgba(255, 255, 255, 0.685);
 	-webkit-text-fill-color:transparent;
 	font-weight: 400;
-	-webkit-text-stroke:.3px rgba(255, 255, 255, 0.529);
+	-webkit-text-stroke:.3px rgba(255, 255, 255, 0.835);
 	line-height: 55px; /* 122.222% */
 	letter-spacing: 0.45px;
 }
@@ -475,7 +475,6 @@ p{
 	margin-bottom: 10px;
 }
 .reviews-container{
-	
 	display: flex;
     animation: scroll-2 50s linear infinite;
 }
@@ -551,12 +550,10 @@ p{
 
 /* footer */
 footer{
-	border-top: 1px #d9d9d965 solid;
 	padding: 40px 0;
 }
 .footer-bottom{
 	padding: 15px 0;
-	border-top: 1px #d9d9d965 solid;
 }
 .footer-box{
 	display: flex;
@@ -604,10 +601,10 @@ footer{
 	color:#03C3EF;
 	-webkit-text-fill-color:transparent;
 	font-weight: 400;
-	-webkit-text-stroke:.3px rgba(3, 195, 239, 0.831);
+	-webkit-text-stroke:.7px rgb(3, 196, 239);
 }
 .white-text li{
-	flex:0 0 42%;
+	flex:0 0 36%;
 	font-family: mokoto glitch;
 	font-size: 45px;
 	font-style: normal;

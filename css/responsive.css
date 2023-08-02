@@ -1,21 +1,48 @@
-@media screen and (max-width: 1651px){
+@media screen and (max-width: 1590px){
     .white-text li{
-        flex: 0 0 46%;
+        flex: 0 0 40%;
 
     }
 }
-@media screen and (max-width: 1509px){
+@media screen and (max-width: 1431px){
     .white-text li{
-        flex: 0 0 57%;
+        flex: 0 0 47%;
 
     }
 }
 @media screen and (max-width: 1217px){
     .white-text li{
+        flex: 0 0 54%;
+
+    }
+}
+@media screen and (max-width: 1060px){
+    .white-text li{
         flex: 0 0 60%;
 
     }
 }
+/* @media screen and (max-width: 1507px){
+    .white-text li{
+        flex: 0 0 39%;
+
+    }
+}
+@media screen and (max-width:1467px){
+    .white-text li{
+        flex: 0 0 41%;
+
+    }
+}
+@media screen and (min-width:1467px){
+    .white-text li{
+        flex: 0 0 41%;
+
+    }
+} */
+
+
+
 
 @media screen and (max-width: 1576px){
     .price-content{
@@ -169,6 +196,27 @@
     #desktopm-menu{
         display: none;
     }
+    section#navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 9999999999;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        position: absolute;
+        top: 17px;
+    }
+    a.navbar-brand {
+        margin-left: 80px;
+    }
+    .header-menu a {
+        padding: 10px 19px;
+    }
     span.navbar-toggler-icon {
         color: #fff;
     }
@@ -179,11 +227,11 @@
         font-size: 30px;
     }
     .animated-text {
-        bottom: -210px;
+        bottom: 10px;
     }
     .white-text li {
         flex: 0 0 100%;
-        font-size:22px;
+        font-size:28px;
         line-height: 23px;
     }
     .footer-box{
@@ -274,8 +322,15 @@
     .popup-content form{
         padding:10px 10px;
     }
-    .popup{
-        top: 0;
+    .popup {
+        top: 17px;
+    }
+    section.faq.section-padding {
+        padding-top: 100px;
+    }
+    section.trems-condation {
+        padding-top: 43px;
+        width: 100%;
     }
 
     .popup-caption p {
@@ -363,6 +418,9 @@
     }
     .voucher-flied button{
         margin-left: 20px;
+    }
+    .different-text{
+        -webkit-text-stroke:.5px rgb(3, 196, 239);
     }
   
 
