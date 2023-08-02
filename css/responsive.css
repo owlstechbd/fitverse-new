@@ -1,5 +1,20 @@
-@media screen and (max-width: 1623px){
+@media screen and (max-width: 1651px){
+    .white-text li{
+        flex: 0 0 46%;
 
+    }
+}
+@media screen and (max-width: 1509px){
+    .white-text li{
+        flex: 0 0 57%;
+
+    }
+}
+@media screen and (max-width: 1217px){
+    .white-text li{
+        flex: 0 0 60%;
+
+    }
 }
 
 @media screen and (max-width: 1576px){
